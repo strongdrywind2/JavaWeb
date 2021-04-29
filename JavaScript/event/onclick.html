@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+      function staticOnClick(){
+        alert("static on click")
+      }
+      window.onload = function (){
+        var btnobj = document.getElementById("123");
+        btnobj.onclick = function (){
+          alert("dynamic on click");
+        }
+      }
+    </script>
+</head>
+<body>
+  <button onclick="staticOnClick();"> button1</button>
+  <button id = "123"> button2</button>
+</body>
+</html>
