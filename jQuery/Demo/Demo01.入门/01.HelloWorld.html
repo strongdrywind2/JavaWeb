@@ -6,12 +6,26 @@
 
 <script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
 <script type="text/javascript">
-	window.onload = function(){
-		var btnobj = document.getElementById("btnId");
-		btnobj.onclick = function (){
-			alert("js original on click")
-		}
-	}
+	// window.onload = function(){
+	// 	var btnobj = document.getElementById("btnId");
+	// 	btnobj.onclick = function (){
+	// 		alert("js original on click")
+	// 	}
+	// 	alert($);
+	// }
+
+
+	// the same as window.onload
+	$(function () {
+		// var btnobj = document.getElementById("btnId");
+		// btnobj.onclick = function (){
+		// 			alert("js original on click")
+		// }
+		var $btnobj = $("#btnId");
+		$btnobj.click(function () {
+			alert("jquery on click");
+		});
+	});
 
 </script>
 

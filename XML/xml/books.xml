@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+declration for xml
+version = "1.0"
+encoding encoding of
+-->
+
+<books>
+    <book sn = "SN12179381">
+        <name>
+            Time history
+        </name>
+        <author>
+            <![CDATA[
+                <<<<<Harking
+            ]]>
+
+        </author>
+        <price>
+            12
+        </price>
+    </book>
+    <book sn = "SN12179381">
+        <name>
+            Java
+        </name>
+        <author>
+            A
+        </author>
+        <price>
+            100
+        </price>
+    </book>
+</books>
